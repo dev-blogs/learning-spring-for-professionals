@@ -76,11 +76,5 @@
 	<context:component-scan base-package="com.dev.blogs.service.springjpa" />
 
 	<jpa:repositories base-package="com.dev.blogs.repository"
-		entity-manager-factory-ref="emf" transaction-manager-ref="transactionManager" />
-
-	<jpa:auditing auditor-aware-ref="auditorAwareBean" />
-
-	<bean id="auditorAwareBean"
-		class="com.dev.blogs.springjpa.auditor.AuditorAwareBean" />
-
+		entity-manager-factory-ref="emf" transaction-manager-ref="transactionManager" />	
 </beans>
