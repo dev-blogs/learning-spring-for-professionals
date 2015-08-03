@@ -1,4 +1,4 @@
-package com.dev.blogs.service;
+package com.dev.blogs.repository;
 
 import java.util.List;
 import org.springframework.data.repository.CrudRepository;
