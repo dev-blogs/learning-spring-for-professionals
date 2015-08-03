@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/dev/blogs/service/jpa/ContactServiceImpl.java=UTF-8
+encoding//src/main/java/com/dev/blogs/service/jpa/ContactServiceNativeQueryImpl.java=UTF-8
+encoding//src/main/java/com/dev/blogs/service/jpa/ContactSummaryServiceImpl.java=UTF-8
+encoding//src/main/java/com/dev/blogs/service/jpa/ContactSummaryUntypeImpl.java=UTF-8
+encoding//src/main/java/dom/dev/blogs/model/Contact_.java=UTF-8
