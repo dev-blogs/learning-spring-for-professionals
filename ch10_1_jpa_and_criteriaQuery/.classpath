@@ -11,5 +11,7 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/practice/git_for_learning/ch10_1_jpa_and_criteriaQuery/metamodel-generator-lib/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/practice/git_for_learning/ch10_1_jpa_and_criteriaQuery/metamodel-generator-lib/hibernate-jpamodelgen-1.1.1.Final.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
