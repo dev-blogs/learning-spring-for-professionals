@@ -1,18 +1,20 @@
 package com.dev.blogs.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import com.dev.blogs.model.ContactAudit;
 import com.dev.blogs.repository.ContactAuditRepository;
+import com.dev.blogs.service.ContactAuditService;
 import com.google.common.collect.Lists;
 
 @Service("contactAuditService")
 @Repository
 @Transactional
-public class ContactAuditServiceImpl implements ContactAuditRepository {
+public class ContactAuditServiceImpl implements ContactAuditService {
 	@Autowired
 	private ContactAuditRepository contactAuditRepository;
 
@@ -33,7 +35,7 @@ public class ContactAuditServiceImpl implements ContactAuditRepository {
 	}
 
 	@Transactional(readOnly=true)
-	public Iterable<ContactAudit> findAll() {
+	public List<ContactAudit> findAll() {
 		return Lists.newArrayList(contactAuditRepository.findAll());
 	}
 	
